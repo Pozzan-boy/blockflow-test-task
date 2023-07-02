@@ -1,5 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
 
 * {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Inter', sans-serif;
 }
+
+@import './blocks/side-menu/side-menu.scss';
+@import './blocks/side-menu/side-menu-media.scss';
+@import './blocks/main/main.scss';
+@import './blocks/main/main-media.scss';
+@import './blocks/states/states.scss';
+@import './blocks/states/states-media.scss';
+@import './blocks/information/informations.scss';
+@import './blocks/information/information-media.scss';
+@import './blocks/banner/banner.scss';
+@import './blocks/banner/banner-media.scss';
+@import './blocks/form/form.scss';

@@ -1,0 +1,27 @@
+.banner {
+    width: 508px;
+    padding: 34px 69px 34px 63px;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__text {
+        color: #1FC0AE;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 32.883px;
+    }
+    &__subtitle {
+        margin-top: 6px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+    }
+    transition: 0.3s;
+    &:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+}

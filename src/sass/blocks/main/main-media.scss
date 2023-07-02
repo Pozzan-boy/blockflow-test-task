@@ -1,0 +1,27 @@
+@media (max-width: 1440px) {
+    .main {
+        &__banners-wrapper {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .main {
+        padding-left: 212px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .main {
+        &__container {
+            padding: 10px;
+        }
+    }
+}

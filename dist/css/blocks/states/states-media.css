@@ -1,0 +1,36 @@
+@media (max-width: 1440px) {
+  .states__state_active .states__state-circle::after {
+    width: 100%;
+    left: -110%;
+  }
+}
+@media (max-width: 1210px) {
+  .states__state_active .states__state-circle::after {
+    width: 50%;
+    left: -60%;
+  }
+}
+@media (max-width: 1024px) {
+  .states {
+    padding-right: 0;
+  }
+  .states__state-circle {
+    width: 50px;
+    height: 50px;
+  }
+  .states__state_active .states__state-circle::after {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .states {
+    flex-wrap: wrap;
+    column-gap: 25px;
+    row-gap: 25px;
+    justify-content: center;
+  }
+  .states__state-circle {
+    width: 60px;
+    height: 60px;
+  }
+}

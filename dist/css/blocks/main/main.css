@@ -1,0 +1,26 @@
+.main {
+  padding-top: 44px;
+  padding-left: 280px;
+  background: #F6F7FA;
+  min-height: 100vh;
+}
+.main__header {
+  color: #1B1B1B;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.96px;
+  text-align: center;
+}
+.main__divider {
+  margin-top: 27px;
+  border: 1px solid #EAECF0;
+}
+.main__container {
+  padding: 32px 62px;
+}
+.main__banners-wrapper {
+  display: flex;
+  row-gap: 20px;
+  justify-content: space-around;
+}

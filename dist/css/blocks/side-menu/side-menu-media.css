@@ -1,0 +1,10 @@
+@media (max-width: 1024px) {
+  .side-menu__item, .side-menu__settings {
+    width: 180px;
+  }
+}
+@media (max-width: 768px) {
+  .side-menu {
+    left: -100%;
+  }
+}

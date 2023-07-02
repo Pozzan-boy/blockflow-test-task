@@ -1,0 +1,49 @@
+.states {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px 0;
+  padding-right: 100px;
+}
+.states__state {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  align-items: center;
+  color: #1B1B1B;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.28px;
+}
+.states__state-circle {
+  width: 72px;
+  height: 72px;
+  border-radius: 100%;
+  background: #EAECF0;
+  box-shadow: 0px 3px 7px rgba(16, 24, 40, 0.3);
+  border: 2px solid transparent;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.states__state-circle:hover {
+  border: 2px solid #1FC0AE;
+}
+.states__state_active .states__state-circle {
+  position: relative;
+  background: #1FC0AE;
+}
+.states__state_active .states__state-circle::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: auto;
+  left: -210%;
+  width: 200%;
+  transform: translateY(-50%);
+  border-top: 2px dashed #009FE3;
+}
+.states__state:first-child .states__state-circle::after {
+  display: none;
+}
